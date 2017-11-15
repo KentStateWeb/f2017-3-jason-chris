@@ -1,10 +1,143 @@
 body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+  /*max-width: 1000px;*/
+
+  font-family: 'Trade Gothic', Arial, sans-serif;
+  background-color: #f3f3f3;
 }
 
-div, section, main, aside, header, footer {
+.logo {
+  max-width: 35%;
+  align-content: center;
+  padding: 5em;
+}
+
+img {
+  max-width: 100%;
+  align: center;
+}
+
+h1 {
+  /*max-width: 1000px;*/
+  padding: .5em;
+  font-family: 'Charter', cursive, serif;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: #E0D1BA;
+}
+
+h2 {
+  /*max-width: 1000px;*/
+  padding: 3em;
+  font-family: 'Baskerville', serif;
+  font-size: 1.4em;
+  text-align: center;
+  color: #655B4F;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+p {
+  font-family: 'Trade Gothic LT';
+}
+
+footer {
+  font-family: 'Trade Gothic LT', sans-serif;
+  background-color: #ebe6e0;
+  padding: 1em;
+  color: #655B4F;
+
+}
+
+h3 {
+  font-family: 'Trade Gothic LT', sans-serif;
+}
+
+li {
+  padding: .3em;
+  font-family: 'Baskerville', serif;
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  color: #E0D1BA;
+}
+
+.bottles {
+    height: 90vh;
+    background-image: url(wine-bottle-sizes-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bottles__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.bottles__text {
+    max-width: 50%;
+    width: 100%;
+    z-index: 100;
+
+    /*z-index: 100;
+    padding: 1em;
+    color: #f3f3f3;
+    font-family: "Baskerville", Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;*/
+}
+
+/* All this does is add a 50% black background on top of the image */
+.bottles:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+@media screen and (min-width: 800px) {
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+   medium gray: #ebe6e0
+   off white: #f3f3f3
+   light brown: #E0D1BA
+   dark brown: #655B4F
+*/
+
+
+
+/* div, section, main, aside, header, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
