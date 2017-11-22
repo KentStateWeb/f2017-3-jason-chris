@@ -54,7 +54,7 @@ h3 {
 }
 
 li {
-  padding: .3em;
+  /padding: .3em;
   font-family: 'Baskerville', serif;
   font-size: 1.4em;
   text-align: center;
@@ -117,9 +117,16 @@ li {
 
 
 
+/* Jason's CSS for the Menu Page*/
 
-
-
+.menu-page{
+border-top: 2px solid black;
+font-size: 1.2em;
+margin-top: 1em;
+padding-left: .50em;
+margin: 0 auto;
+max-width: 90%;
+}
 
 
 
