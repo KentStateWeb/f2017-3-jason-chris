@@ -222,7 +222,6 @@ header{
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
-span{padding-left:20px;}
 a{color:#336699;}
 
 /* NAVIGATION CODE */
@@ -286,42 +285,46 @@ nav[role=navigation] {
 
 h4{
   font-family: 'Charter', cursive, serif;
-  font-size: 1.2em;
+  font-size: 2.5em;
   color: #E0D1BA;
-  padding-left: 2.25em;
+  padding-left: 1em;
   background: black;
-  width: 75px;
+  margin-bottom: .75em;
 }
 
 h5{
   margin: 0 auto;
   font-family: 'Charter', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.75em;
+  font-style: italic;
   max-width: 100%;
-  padding-left: 2.25em;
+  padding-left: 1.5em;
   color: black;
+  font-weight: bold;
 }
 
 dl{
   margin: 0 auto;
   padding-bottom: 2em;
+  padding-right: 2em;
 }
 
 dt{
   padding: .25em;
+  padding-bottom: 1em;
 }
 
 tr{
   text-align: center;
 }
 
-/* Dish Names */
+/* Dish Names Begins */
 
 span{
-  font-family: 'Baskerville', sans-serif;
+  font-family: 'Baskerville', cursive-serif;
   font-weight: bold;
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 /* Dish Names Closed */
