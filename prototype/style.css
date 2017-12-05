@@ -38,7 +38,6 @@ img {
 
 h1 {
   /*max-width: 1000px;*/
-  padding: .5em;
   font-family: 'Charter', cursive, serif;
   text-align: center;
   font-size: 4em;
@@ -48,13 +47,19 @@ h1 {
 
 h2 {
   /*max-width: 1000px;*/
-  padding: 3em;
-  font-family: 'Baskerville', serif;
-  font-size: 1.4em;
-  text-align: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Charter', serif;
+  font-size: 2.5em;
+  text-align: left;
   color: #655B4F;
   font-style: italic;
-  line-height: 1.5em;
+  line-height: 1.1em;
+  border-top: 8px solid #655B4F;
+  /*display: inline-block;
+  width: 20%;
+  margin: 0 10% 0 10%;*/
 }
 
 p {
@@ -111,7 +116,7 @@ li {
 }
 
 .bottles {
-    height: 90vh;
+    height: 45vh;
     background-image: url(wine-bottle-sizes-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,6 +227,11 @@ header{
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
+<<<<<<< HEAD
+=======
+/* /////GLYPHICON SPAN/////
+span{padding-left:20px;}*/
+>>>>>>> 20aa67765d52cca43df21627eb161060ca38e5e0
 a{color:#336699;}
 
 /* NAVIGATION CODE */
@@ -281,7 +291,7 @@ nav[role=navigation] {
 
 
 
-/* JASON's CSS for the Menu Page*/
+/* ++++++++++++++ JASON's CSS for the Menu Page +++++++++++++++ */
 
 h4{
   font-family: 'Charter', cursive, serif;
@@ -407,6 +417,7 @@ a.menu-link {
    off white: #f3f3f3
    light brown: #E0D1BA
    dark brown: #655B4F
+   dark gray: #282828
 */
 
 
