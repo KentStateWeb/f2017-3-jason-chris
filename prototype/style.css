@@ -41,13 +41,14 @@ p {
   font-family: 'Trade Gothic LT';
 }
 
-footer {
+/*footer {
   font-family: 'Trade Gothic LT', sans-serif;
-  background-color: #ebe6e0;
+  background-color: black;
   padding: 1em;
-  color: #655B4F;
-
+  color: #f3f3f3;
+  text-align: center;
 }
+*/
 
 h3 {
   font-family: 'Trade Gothic LT', sans-serif;
@@ -117,20 +118,119 @@ li {
 
 
 
-/* Jason's CSS for the Menu Page*/
+/* JASON's CSS for the Menu Page*/
 
-.menu-page{
-border-top: 2px solid black;
-font-size: 1.2em;
-margin-top: 1em;
-padding-left: .50em;
-margin: 0 auto;
-max-width: 90%;
+h4{
+  font-family: 'Charter', cursive, serif;
+  font-size: 1.2em;
+  color: #E0D1BA;
+  padding-left: 2.25em;
+  background: black;
+  width: 75px;
 }
 
+h5{
+  margin: 0 auto;
+  font-family: 'Charter', sans-serif;
+  font-size: 1.2em;
+  max-width: 100%;
+  padding-left: 2.25em;
+  color: black;
+}
 
+dl{
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
 
+dt{
+  padding: .25em;
+}
 
+tr{
+  text-align: center;
+}
+
+/* Dish Names */
+
+span{
+  font-family: 'Baskerville', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.em;
+}
+
+/* Dish Names */
+
+footer {
+  font-family: 'Trade Gothic LT', sans-serif;
+  background-color: black;
+  padding: 2em;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 2em;
+}
+
+.footer-subhead{
+  font-weight: bold;
+  color:#f3f3f3;
+}
+
+/* Hamburger BEGINS*/
+
+a.menu-link {
+        float: right;
+            display: block;
+            padding: 1em;
+        }
+        nav[role=navigation] {
+            clear: both;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        .js nav[role=navigation] {
+            overflow: hidden;
+            max-height: 0;
+        }
+        nav[role=navigation].active {
+            max-height: 15em;
+        }
+        nav[role=navigation] ul {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid #808080;
+        }
+        nav[role=navigation] li a {
+            display: block;
+            padding: 0.8em;
+            border-bottom: 1px solid #808080;
+        }
+
+        @media screen and (min-width:800px) {
+            a.menu-link {
+               display: none;
+            }
+            .js nav[role=navigation] {
+                max-height: none;
+            }
+            nav[role=navigation] ul {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
+
+            nav[role=navigation]  li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+            nav[role=navigation] li a {
+                border: 0;
+            }
+        }
+
+/* Hamburger  ENDS*/
 
 
 
