@@ -83,10 +83,10 @@ p {
   padding-right: 2.25em;
 
 =======
-  padding-right: 2.25; 
+  padding-right: 2.25;
 >>>>>>> 52d72d8ce4ef1f360cfeee2ec6fe9ddd8fe9b2fc
 =======
-  padding-right: 2.25; 
+  padding-right: 2.25;
 >>>>>>> 52d72d8ce4ef1f360cfeee2ec6fe9ddd8fe9b2fc
 }
 
@@ -107,6 +107,34 @@ p {
   font-style: italic;
   line-height: 1.1em;
   padding-bottom: 1em;
+}
+
+.blockquote-about {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Charter', serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: #f3f3f3;
+  font-style: italic;
+  line-height: 1.1em;
+  padding-bottom: 1em;
+}
+
+.corks-about-page {
+    height: 55vh;
+    background-image: url(wine-stoppers-pc-and-mac-1073571.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.narrow-img{
+  width: 85%;
+  display: block;
+  margin: 2em auto;
 }
 
 .line{
