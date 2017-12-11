@@ -11,7 +11,7 @@ figure {
 }
 
 .monogram {
-  max-width: 15%;
+  max-width: 20%;
   display: flex;
   padding-left: 1em;
   padding-bottom: 10em;
@@ -46,8 +46,14 @@ h1 {
   color: #E0D1BA;
 }
 
+.rule {
+  align: center;
+  padding-top: 1em;
+}
+
 h2 {
   /*max-width: 1000px;*/
+<<<<<<< HEAD
   padding: 3em;
   font-family: 'Baskerville', serif;
   font-size: 1.4em;
@@ -55,6 +61,22 @@ h2 {
   color: #655B4F;
   font-style: italic;
   line-height: 1.5em;
+=======
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Charter', serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: #655B4F;
+  font-style: italic;
+  line-height: 1.1em;
+  /*border-top: 8px solid #655B4F;
+  display: inline-block;
+  width: 20%;
+  margin: 0 10% 0 10%;*/
+>>>>>>> 59dbc466f9fbe9fd0eea7e1e8b68d1d8652540cd
 }
 
 p {
@@ -91,7 +113,7 @@ li {
   color: #655B4F;
 }
 
-.email:hover {
+.email:hover, .email:focus {
   color: #E0D1BA;
 }
 
@@ -100,7 +122,7 @@ li {
   max-width: 100%;
 }
 
-.links:hover {
+.links:hover, .links:focus {
       text-decoration: none;
       color: #E0D1BA;
 }
@@ -111,7 +133,11 @@ li {
 }
 
 .bottles {
+<<<<<<< HEAD
     height: 90vh;
+=======
+    height: 55vh;
+>>>>>>> 59dbc466f9fbe9fd0eea7e1e8b68d1d8652540cd
     background-image: url(wine-bottle-sizes-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,11 +235,11 @@ header{
 .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover, .menu li:focus{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-.menu ul li a:hover {  color: #655B4F; text-decoration:none;}
+.menu ul li a:hover, .menu ul li a:focus {  color: #655B4F; text-decoration:none;}
 .menu a{text-decoration:none; color:#655B4F;}
-.menu a:hover{text-decoration:none; color:#655B4F;}
+.menu a:hover, .menu a:focus{text-decoration:none; color:#655B4F;}
 
 .glyphicon-home{
   color:white;
