@@ -38,6 +38,7 @@ img {
 
 h1 {
   /*max-width: 1000px;*/
+  padding: .5em;
   font-family: 'Charter', cursive, serif;
   text-align: center;
   font-size: 4em;
@@ -47,19 +48,13 @@ h1 {
 
 h2 {
   /*max-width: 1000px;*/
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-family: 'Charter', serif;
-  font-size: 2.5em;
-  text-align: left;
+  padding: 3em;
+  font-family: 'Baskerville', serif;
+  font-size: 1.4em;
+  text-align: center;
   color: #655B4F;
   font-style: italic;
-  line-height: 1.1em;
-  border-top: 8px solid #655B4F;
-  /*display: inline-block;
-  width: 20%;
-  margin: 0 10% 0 10%;*/
+  line-height: 1.5em;
 }
 
 p {
@@ -116,7 +111,7 @@ li {
 }
 
 .bottles {
-    height: 45vh;
+    height: 90vh;
     background-image: url(wine-bottle-sizes-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,11 +222,6 @@ header{
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
-<<<<<<< HEAD
-=======
-/* /////GLYPHICON SPAN/////
-span{padding-left:20px;}*/
->>>>>>> 20aa67765d52cca43df21627eb161060ca38e5e0
 a{color:#336699;}
 
 /* NAVIGATION CODE */
@@ -291,26 +281,53 @@ nav[role=navigation] {
 
 
 
-/* ++++++++++++++ JASON's CSS for the Menu Page +++++++++++++++ */
+/* JASON's CSS for the Menu Page*/
 
 h4{
-  font-family: 'Charter', cursive, serif;
+  font-family: 'Charter', sans-serif;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;
   font-size: 2.5em;
-  color: #E0D1BA;
-  padding-left: 1em;
-  background: black;
-  margin-bottom: .75em;
+  color: #655B4F;
+  padding: .25em;
+  padding-left: .5em;
+  margin: .5em;
 }
 
+.line{
+  font-size: 2.5em;
+  color: #655B4F;
+  margin-top: -60px;
+  padding-left: 1em;
+}
+
+/*.color{
+  background: #E0D1BA;
+}*/
+
 h5{
-  margin: 0 auto;
-  font-family: 'Charter', sans-serif;
-  font-size: 1.75em;
-  font-style: italic;
-  max-width: 100%;
-  padding-left: 1.5em;
-  color: black;
+  font-family: 'Charter', 'Baskerville', sans-serif;
+  font-size: 1.65em;
   font-weight: bold;
+  max-width: 100%;
+  color: #993434;
+  margin: 0 auto;
+  padding: 1.45em;
+  padding-bottom: .5em;
+}
+
+table{
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #655B4F;
+  /*border-spacing: 2em;
+  */
+}
+
+td{
+  padding-bottom: 1em;
+  padding-right: 10px;
 }
 
 dl{
@@ -324,17 +341,13 @@ dt{
   padding-bottom: 1em;
 }
 
-tr{
-  text-align: center;
-}
-
 /* Dish Names Begins */
 
 span{
   font-family: 'Baskerville', cursive-serif;
   font-weight: bold;
   font-style: italic;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 /* Dish Names Closed */
@@ -414,10 +427,10 @@ a.menu-link {
 
 /*
    medium gray: #ebe6e0
+   dark gray: #282828
    off white: #f3f3f3
    light brown: #E0D1BA
    dark brown: #655B4F
-   dark gray: #282828
 */
 
 
