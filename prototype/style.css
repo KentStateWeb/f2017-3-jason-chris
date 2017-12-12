@@ -12,9 +12,13 @@ figure {
   max-width: 25%;
   display: inline-block;
   padding-left: 1em;
-  padding: 1.5em;
-  padding-top: 20px;
+  padding: .7em;
+  padding-top: 24px;
   padding-bottom: 20px;
+}
+
+.monogram img {
+  width: 100%;
 }
 
 .logo {
@@ -170,14 +174,11 @@ p {
 
   h1, h2{
     display: flex;
-    padding-left: 0;
-    border-bottom-style: none;
     padding-top: 30px;
   }
 
   .line{
     display: flex;
-    padding-left: 0;
   }
 }
 /* @media screen ENDS*/
@@ -245,7 +246,7 @@ li {
   font-weight: bold;
   text-decoration: none;
   list-style: none;
-  color: #E0D1BA;
+  color: #993434;
 }
 
 .email {
@@ -531,7 +532,13 @@ a.menu-link {
                 border: 0;
             }
         }
-
+/*/////////LINK///////////
+    @media screen and (min-width:800px) {
+           a:link {
+               text-decoration: none;
+               width: 100%;
+}
+    }*/
 /* Hamburger  ENDS*/
 
 
