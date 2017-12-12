@@ -366,6 +366,8 @@ footer {
   color: #f3f3f3;
   text-align: center;
   line-height: 2em;
+  clear: left;
+  margin-top: 5em;
 }
 
 .footer-subhead{
