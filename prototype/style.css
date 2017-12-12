@@ -161,10 +161,6 @@ p {
 }
 
 @media screen and (min-width: 700px) {
-  about-transition{
-    padding: 5em 1.5em;
-    width: 90%;
-  }
 
   .narrow-img{
     max-width: 40%;
@@ -181,7 +177,53 @@ p {
     display: flex;
   }
 }
-/* @media screen ENDS*/
+
+/******** @media screen ENDS********/
+
+@media screen and (min-width: 1200px) {
+
+  .box{
+    padding: 2em;
+}
+
+  .narrow-img{
+    width: 45%;
+    float: left;
+    margin: 0;
+    padding-right: 2em;
+  }
+
+  h1 {
+    border-bottom-style: none;
+    padding-top: .25em;
+    margin: 0;
+  }
+
+  h2 {
+    padding-left: 0;
+    border-bottom-style: none;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin: 0;
+  }
+
+  .line {
+    padding-top: 20px;
+    margin-bottom: 1px;
+  }
+
+  .content {
+    clear: none;
+    padding-top: .25em;
+    margin: 0;
+  }
+
+  p{
+    margin: .5em;
+  }
+}
+
+/******** @media screen ENDS ********/
 
 a {
   color:#282828;
