@@ -194,16 +194,10 @@ p {
   }
 
   h1 {
-    border-bottom-style: none;
-    padding-top: .25em;
     margin: 0;
   }
 
   h2 {
-    padding-left: 0;
-    border-bottom-style: none;
-    padding-bottom: 1px;
-    padding-top: 1px;
     margin: 0;
   }
 
